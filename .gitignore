@@ -1,0 +1,19 @@
+# Credenciales locales
+.env
+.env.*
+!.env.example
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Compilación
+**/target/
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db

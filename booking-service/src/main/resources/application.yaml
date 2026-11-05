@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: booking-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5433/booking_db
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+
+server:
+  port: 8000
